@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="0dp"
-        android:onClick="showToast"  />
+        />
 
     <Button
         android:id="@+id/button_count"
@@ -33,7 +33,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
 
-    android:onClick="countUp"
         tools:ignore="DuplicateIds" />
 
     <TextView
